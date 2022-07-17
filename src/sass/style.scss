@@ -20,7 +20,13 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
 @import 'blocks/header';
+@import 'blocks/carousel';
 
 @import 'blocks/media';
 
