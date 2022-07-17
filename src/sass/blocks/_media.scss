@@ -1,0 +1,31 @@
+@media (max-width:1450px) {
+    .header {
+        &__menu {
+            margin-left: 230px;
+        }
+    }
+}
+
+@media (max-width:1392px) {
+    .header {
+        &__navbar{
+            padding: 11px 100px 8px 100px;
+        }
+        &__menu {
+            margin-left: 55px;
+        }
+    }
+}
+
+
+@media (max-width:1100px) {
+    .header {
+        &__navbar{
+            padding: 11px 50px 8px 50px;
+        }
+        &__menu {
+            margin-left: 30px;
+        }
+    }
+}
+

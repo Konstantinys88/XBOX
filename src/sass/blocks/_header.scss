@@ -1,2 +1,56 @@
+.header {
+    height: 60px;
+    background-color: #373A3C;
+    border-radius: 4px;
+    a {
+        color: $colorTextHeader;
+        text-decoration: none;
+        &:hover {
+            color: rgb(252, 252, 252);
+        }
+    }
+    &__navbar {
+        padding: 11px 174px 8px 156px;
+        // min-width: 1070px;
+        height: 38px;
+        display: flex;
+        align-items:center;
+    }
+    &__menu {
+        margin-left: 288px;
+        li {
+            display: inline;
+            img {
+                margin-left: 7px;
+            }
+        }
+    }
+    &__community {
+        margin-left: 28px;
+    }
+    &__form {
+        margin-left: 28px;
+        input {
+            height: 38px;
+            width: 210px;
+            border-radius: 4px;
+        }
+        &_btn {
+            visibility: hidden;
+        }
+    }
+    &__myxbox {
+        margin-left: auto;
+        &_user {
+            margin-right: 5px;
+        }
+        &_down {
+            margin-left: 7px;
+        }
+        li {
+            list-style-type: none;
+        }
 
+    }
+}
 
